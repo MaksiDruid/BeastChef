@@ -3,4 +3,4 @@ My Unity learning project "BeastChef". A mobile cooking game that allows for two
 
 Scripts folder: BeastChef\Assets\_Assets\Scripts
 
-Gameplay trailer: https://sergey-kidanov.itch.io/beastchef
+Gameplay trailer/screenshots: https://sergey-kidanov.itch.io/beastchef
