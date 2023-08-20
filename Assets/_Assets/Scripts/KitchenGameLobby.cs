@@ -169,6 +169,7 @@ public class KitchenGameLobby : MonoBehaviour
         OnCreateLobbyStarted?.Invoke(this, EventArgs.Empty);
         try
         {
+            if (lobbyName == "") lobbyName = "Unnamed room";
             joinedLobby = await LobbyService.Instance.CreateLobbyAsync(lobbyName, KitchenGameMultiplayer.MAX_PLAYER_AMOUNT, new CreateLobbyOptions
             {
                 IsPrivate = isPrivate
