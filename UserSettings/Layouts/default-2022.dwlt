@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Hierarchy
   m_RootView: {fileID: 4}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 54
+  controlID: 57
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 90
+  controlID: 19
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -652,14 +652,14 @@ MonoBehaviour:
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
   m_SceneLighting: 1
-  m_2DMode: 0
+  m_2DMode: 1
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 374.99304, y: 434.8611, z: 0.87818146}
+    m_Target: {x: 48.818237, y: -10.417651, z: -11.421114}
     speed: 2
-    m_Value: {x: 374.99304, y: 434.8611, z: 0.87818146}
+    m_Value: {x: 45.115955, y: -11.2249155, z: -11.469643}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -705,17 +705,17 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.008104286, y: -0.03838291, z: 0.0003097014, w: 0.99925137}
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: 0.00810457, y: -0.036883213, z: 0.00029753835, w: 0.9992867}
+    m_Value: {x: 0.0060190903, y: -0.00070600305, z: 0.00008637636, w: 0.99998164}
   m_Size:
-    m_Target: 54.9972
+    m_Target: 102.9887
     speed: 2
-    m_Value: 54.99719
+    m_Value: 107.84157
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_CameraSettings:
     m_Speed: 1.1004512
     m_SpeedNormalized: 0.5500006
@@ -729,7 +729,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.31296453, y: 0.00056849327, z: -0.0001850435, w: -0.949772}
+  m_LastSceneViewRotation: {x: 0.12179689, y: -0.014286044, z: 0.0017478354, w: 0.99247265}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -863,24 +863,24 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 120.80002}
-      m_SelectedIDs: 6e720000
-      m_LastClickedID: 29294
-      m_ExpandedIDs: 0cfbfffffe710000d2730000ec730000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 94880000
+      m_LastClickedID: 34964
+      m_ExpandedIDs: 32e7ffffe0ebffffa8ecffff64f1ffff80f3ffff40f4ffff0cfbffff94880000bc880000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: GamePlayingClockUI
-        m_OriginalName: GamePlayingClockUI
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 29650
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 2}
       m_SearchString: 
@@ -938,7 +938,7 @@ MonoBehaviour:
     m_SkipHidden: 1
     m_SearchArea: 1
     m_Folders:
-    - Assets/_Assets/ScriptableObjects/RecipeSO
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -954,7 +954,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 206c0000
     m_LastClickedID: 27680
-    m_ExpandedIDs: 000000000a7600002276000034780000167f0000187f00001a7f00001c7f00001e7f0000207f0000227f0000247f0000267f0000287f0000
+    m_ExpandedIDs: 000000000a7600002276000034780000167f0000187f00001a7f00001c7f00001e7f0000207f0000227f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -979,10 +979,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 73.80005}
+    scrollPos: {x: 0, y: 537.80005}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff000000000a7600002276000034780000167f00001a7f00001e7f0000227f0000267f0000287f000008800000
+    m_ExpandedIDs: ffffffff000000000a7600002276000034780000167f0000187f00001a7f00001c7f00001e7f0000207f0000227f0000947f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
